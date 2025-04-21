@@ -1,0 +1,29 @@
+:root {
+  --soft-yellow: #FFF7DC;
+  --soft-green: #6AC39A;
+  --primary-green: #3A7C6B;
+}
+
+.bg-soft-yellow {
+  background-color: var(--soft-yellow);
+}
+
+.border-soft-green {
+  border-color: var(--soft-green);
+}
+
+.text-soft-green {
+  color: var(--soft-green);
+}
+
+.text-primary-green {
+  color: var(--primary-green);
+}
+
+.bg-soft-green {
+  background-color: var(--soft-green);
+}
+
+.hover\:bg-primary-green:hover {
+  background-color: var(--primary-green);
+}
